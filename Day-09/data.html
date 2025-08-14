@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BioData</title>
+        <link rel="stylesheet" href="file.css">
+
+    </head>
+    <body>
+<div class="container">
+    <h2>BIODATA FORM</h2>
+    <form id="biodataform">
+        <label>Full Name: </label>
+        <input type="text" id="name" required>
+
+        <label>Date Of Birth: </label>
+        <input type="data" id="dob" required>
+
+        <label>Gender: </label>
+        <select id="gender" required>
+            <option value="">Select</option>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Other Gender</option>
+        </select>
+
+        <label>EMAIL: </label>
+        <input type="email" id="email" required>
+
+        <label>PHONE NO: </label>
+        <input type="tel" id="phone" required>
+
+        <label>ADDRESS: </label>
+        <textarea id="address" required></textarea>
+
+        <label>EDUCATION: </label>
+        <input type="text" id="education"placeholder = "e.g. B.SC computer science"required>
+
+        <label>SKILLS: </label>
+        <input type="text" id="skills"placeholder = "e.g. HTML , CSS , JAVASCRIPT">
+
+        <button type="submit">GENERATE BIODATA</button>
+        </form>
+</div>
+<div class="output" id="output"></div>
+
+        <script src="jv.js"> </script>
+    </body>
+</html>
